@@ -46,7 +46,7 @@ class Timer implements TimerInterface
     }
 
     /**
-     * get the start timestamp
+     * get start timestamp
      * 
      * @return float
      */
@@ -56,7 +56,7 @@ class Timer implements TimerInterface
     }
 
     /**
-     * get the start date time
+     * get start date time
      * 
      * @param string|null $format
      * @return string
@@ -107,7 +107,7 @@ class Timer implements TimerInterface
     }
 
     /**
-     * get the stop timestamp
+     * get stop timestamp
      * 
      * @return float
      */
@@ -117,7 +117,7 @@ class Timer implements TimerInterface
     }
 
     /**
-     * get the stop date time
+     * get stop date time
      * 
      * @param string|null $format
      * @return string

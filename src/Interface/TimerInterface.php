@@ -21,14 +21,14 @@ interface TimerInterface
     public function start(): static;
 
     /**
-     * get the start timestamp
+     * get start timestamp
      * 
      * @return float
      */
     public function startTimeStamp(): float;
 
     /**
-     * get the start date time
+     * get start date time
      * 
      * @param string|null $format
      * @return string
@@ -47,14 +47,14 @@ interface TimerInterface
     public function stop(): static;
 
     /**
-     * get the stop timestamp
+     * get stop timestamp
      * 
      * @return float
      */
     public function stopTimeStamp(): float;
 
     /**
-     * get the stop date time
+     * get stop date time
      * 
      * @param string|null $format
      * @return string
