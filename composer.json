@@ -3,20 +3,16 @@
     "description": "Timer for PHP",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "autoload": {
         "psr-4": {
-            "YukataRm\\Timer\\": "src",
-            "YukataRm\\Laravel\\Timer\\": "src\\Laravel"
+            "YukataRm\\Timer\\": "src"
         }
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "YukataRm\\Laravel\\Timer\\Provider\\FacadeServiceProvider"
-            ],
             "aliases": {
-                "Timer": "YukataRm\\Laravel\\Timer\\Facade\\Timer"
+                "Timer": "YukataRm\\Timer\\Proxy\\Timer"
             }
         }
     },
@@ -29,9 +25,6 @@
     "require": {
         "php": ">=8.2.0",
         "yukata-roommate/static-proxy": "^1.0.0"
-    },
-    "require-dev": {
-        "laravel/laravel": "^11.0"
     },
     "minimum-stability": "dev"
 }
